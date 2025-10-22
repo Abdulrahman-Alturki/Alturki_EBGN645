@@ -1,10 +1,10 @@
 * Refinery Optimization Model 
 Scalars
-P_G /92.3/
-P_MD /96.7/
-W /73.1/
-C0 /10000/
-X_cap /140000/;
+P_G "Gasoline Price in $/bbl" /92.3/ 
+P_MD  "MD Average Price in $/bbl"/96.7/
+W "Crude Oil Price in $/bbl"/73.1/
+C0 " Fixed Cost" /10000/
+X_cap " Total Refinery throuhgput in bbls" /140000/;
 
 Positive Variables
 SG "gasoline produced (bbl/day)"
